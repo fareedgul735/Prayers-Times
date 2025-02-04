@@ -1,5 +1,6 @@
 function dayNightVisualizer() {
   let hoursChangingForTime = new Date().getHours();
+  console.log(hoursChangingForTime);
   let headingText = document.getElementById("headText");
   let divParent = document.getElementById("parentDiv");
   let changeTimePictures = document.getElementById("imageChange");
@@ -54,7 +55,7 @@ function dayNightVisualizer() {
     // <!-- Magrib -->//
 
     //  <!-- Isha -->//
-  } else if (hoursChangingForTime >= 20 && hoursChangingForTime < 2) {
+  } else if (hoursChangingForTime >= 20 || hoursChangingForTime < 5) {
     headingText.innerHTML = "عشا";
     divParent.style.backgroundImage = "url('nighting.jpg')";
     headingText.style.color = "rgb(255, 255, 255)";
