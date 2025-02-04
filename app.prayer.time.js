@@ -38,7 +38,7 @@ function dayNightVisualizer() {
     // <!-- Zohar -->//
 
     // <!-- Aser -->//
-  } else if (hoursChangingForTime >= 17 && hoursChangingForTime < 19) {
+  } else if (hoursChangingForTime >= 17 && hoursChangingForTime < 18) {
     headingText.innerHTML = "عصر";
     divParent.style.backgroundImage = "url('aserPic.webp')";
     headingText.style.color = "rgb(255, 255, 255)";
@@ -46,7 +46,7 @@ function dayNightVisualizer() {
     // <!-- Aser -->//
 
     // <!-- Magrib -->//
-  } else if (hoursChangingForTime >= 19 && hoursChangingForTime < 21) {
+  } else if (hoursChangingForTime >= 18 && hoursChangingForTime < 20) {
     headingText.innerHTML = "مغرب";
     divParent.style.backgroundImage = "url('magrib pic.jpg')";
     headingText.style.color = "rgb(255, 255, 255)";
@@ -54,7 +54,7 @@ function dayNightVisualizer() {
     // <!-- Magrib -->//
 
     //  <!-- Isha -->//
-  } else if (hoursChangingForTime >= 21 && hoursChangingForTime < 2) {
+  } else if (hoursChangingForTime >= 20 && hoursChangingForTime < 2) {
     headingText.innerHTML = "عشا";
     divParent.style.backgroundImage = "url('nighting.jpg')";
     headingText.style.color = "rgb(255, 255, 255)";
