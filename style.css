@@ -1,0 +1,71 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+/* heading */
+.headParent {
+  height: 78px;
+  background-color: rgb(0, 0, 0);
+}
+#time {
+  padding-top: 6px;
+  font-size: 19px;
+  text-align: center;
+  font-style: italic;
+  font-family: monospace;
+  color: rgb(255, 255, 255);
+}
+.myHead {
+  text-align: center;
+  padding-top: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: background-image 1s ease-in-out;
+}
+
+/* heading */
+
+/* myParentDiv */
+.myParent {
+  min-width: 100vw;
+  min-height: 92vh;
+  transition: background-image 1s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* myParentDiv */
+
+/* <!-- Day-Night-Images-Changes --> */
+
+.myDiv {
+  width: 504px;
+  height: 504px;
+  transition: background-image 1s ease-in-out;
+  background-size: 100% 100%;
+  border-radius: 100%;
+  animation: spin 60s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* <!-- Day-Night-Images-Changes --> */
+
+/* MediaQuerie */
+
+@media screen and (min-width: 280px) and (max-width: 510px) {
+  .myDiv {
+    width: 304px;
+    height: 304px;
+    border-radius: 100%;
+  }
+}
+
+/* MediaQuerie */
