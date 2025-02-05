@@ -11,7 +11,8 @@ function dayNightVisualizer() {
     headingText.innerHTML = "(فجر)";
     headingText.style.color = "rgb(255, 255, 255)";
     divParent.style.backgroundImage = "url('fajer pic.jpg')";
-    changeTimePictures.style.backgroundImage = "url('Fajer time.jpg')";
+    changeTimePictures.style.backgroundImage =
+      "url('earth-11015_1280-removebg-preview.png')";
     //   <!-- Fajar -->//
 
     // <!-- Ishraq -->//
@@ -19,7 +20,8 @@ function dayNightVisualizer() {
     headingText.innerHTML = "(إشراق)";
     divParent.style.backgroundImage = "url('ishraq.jpg')";
     headingText.style.color = "rgb(255, 255, 255)";
-    changeTimePictures.style.backgroundImage = "url('ishraq time.webp')";
+    changeTimePictures.style.backgroundImage =
+      "url('earth-11015_1280-removebg-preview.png')";
     // <!-- Ishraq -->//
 
     // <!-- Chasht -->//
@@ -27,7 +29,8 @@ function dayNightVisualizer() {
     headingText.innerHTML = "چاشت";
     divParent.style.backgroundImage = "url('chast pic.jpg')";
     headingText.style.color = "rgb(255, 255, 255)";
-    changeTimePictures.style.backgroundImage = "url('chast Tie.webp')";
+    changeTimePictures.style.backgroundImage =
+      "url('earth-11015_1280-removebg-preview.png')";
     // <!-- Chasht -->//
 
     // <!-- Zohar -->//
@@ -35,7 +38,8 @@ function dayNightVisualizer() {
     headingText.innerHTML = "ظہر";
     divParent.style.backgroundImage = "url('Zohar pic.jpg')";
     headingText.style.color = "rgb(255, 255, 255)";
-    changeTimePictures.style.backgroundImage = "url('zoharTime.jpg')";
+    changeTimePictures.style.backgroundImage =
+      "url('earth-11015_1280-removebg-preview.png')";
     // <!-- Zohar -->//
 
     // <!-- Aser -->//
@@ -43,7 +47,8 @@ function dayNightVisualizer() {
     headingText.innerHTML = "عصر";
     divParent.style.backgroundImage = "url('aserPic.webp')";
     headingText.style.color = "rgb(255, 255, 255)";
-    changeTimePictures.style.backgroundImage = "url('aser time.webp')";
+    changeTimePictures.style.backgroundImage =
+      "url('earth-11015_1280-removebg-preview.png')";
     // <!-- Aser -->//
 
     // <!-- Magrib -->//
@@ -51,7 +56,8 @@ function dayNightVisualizer() {
     headingText.innerHTML = "مغرب";
     divParent.style.backgroundImage = "url('magrib pic.jpg')";
     headingText.style.color = "rgb(255, 255, 255)";
-    changeTimePictures.style.backgroundImage = "url('magrib time.jpg')";
+    changeTimePictures.style.backgroundImage =
+      "url('earth-11015_1280-removebg-preview.png')";
     // <!-- Magrib -->//
 
     //  <!-- Isha -->//
@@ -59,7 +65,8 @@ function dayNightVisualizer() {
     headingText.innerHTML = "عشا";
     divParent.style.backgroundImage = "url('nighting.jpg')";
     headingText.style.color = "rgb(255, 255, 255)";
-    changeTimePictures.style.backgroundImage = "url('esha time.avif')";
+    changeTimePictures.style.backgroundImage =
+      "url('earth-11015_1280-removebg-preview.png')";
     //  <!-- Isha -->//
 
     // <!-- Tahjjud -->//
@@ -67,7 +74,8 @@ function dayNightVisualizer() {
     headingText.innerHTML = "تہجد";
     divParent.style.backgroundImage = "url('nighting.jpg')";
     headingText.style.color = "rgb(255, 255, 255)";
-    changeTimePictures.style.backgroundImage = "url('tahjjud time.avif')";
+    changeTimePictures.style.backgroundImage =
+      "url('earth-11015_1280-removebg-preview.png')";
     // <!-- Tahjjud -->//
   }
 }
